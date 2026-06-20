@@ -4,7 +4,154 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentStatus",
+				"outputs": [
+					{
+						"internalType": "enum SimpleStorage.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "dynamicIds",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArrayLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "pushId",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum SimpleStorage.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "setStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +165,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"data-types/SimpleStorage.sol": "SimpleStorage"
+			"functions/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -32,11 +179,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"data-types/SimpleStorage.sol": {
-			"keccak256": "0xe74ffb79fb82a54eb4e057a95d33d8d4eaac4f560bfb0d6f2b613b94a513e3cb",
+		"functions/SimpleStorage.sol": {
+			"keccak256": "0x1eeb1efb4c5bd6c6d8c8188575b1fbaf31e803d203525b9f224de41c30406c23",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://52af2034e1994fcf5cd1091249adad5d6a83e87d3f8cc3f098ba79d38e988928",
-				"dweb:/ipfs/QmV7dWaruXrqbQcFRn6fQQWS4u49bmkVbxSZkKfkt8cvP4"
+				"bzz-raw://07d2fd182615bb83e67b5d7e7fd6c6cd1094293b2f986b027251e5cc60bffb77",
+				"dweb:/ipfs/QmfQWenKH9XoKF7QLQz2y5hogpC9qgbRzJhmQsKK8ETMWB"
 			]
 		}
 	},
