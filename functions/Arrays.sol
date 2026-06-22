@@ -21,8 +21,7 @@ contract SimpleStorage1 {
     Person[4] public listOfFavoritePersons;
 
     
-
-
+    // calldata, memory, storage
    function addPersons(string memory _name, uint256 _favoriteNumber) public {
         // Person memory newPerson = Person(_favoriteNumber, _name);
         // listOfPersons.push(newPerson);
